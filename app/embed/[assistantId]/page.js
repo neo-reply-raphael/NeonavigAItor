@@ -90,7 +90,7 @@ function Embed({ params: { assistantId } }) {
             <div className={`flex justify-between bg-myPrimary rounded-xl p-4`}>
                 <div className="flex items-center gap-2">
                     <Image height={25} width={58} src='/Neo.png' alt="logo"/>
-                    <span className="font-semibold" style="color: #fff;">NEO MAGAZINE FATAL</span>
+                    <span className="font-semibold">NEO MAGAZINE FATAL</span>
                 </div>
                 <div className="d-flex align-items-center gap-2 cursor-pointer">
                     <Image height={20} width={20} onClick={refreshChat} src='/refresh.svg'  alt="refresh"/>
