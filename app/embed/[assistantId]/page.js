@@ -20,7 +20,7 @@ function Embed({ params: { assistantId } }) {
     const chatRef = useRef(null)
     chatRef.current = chat
     localStorage.setItem('openAIKey',process.env.REACT_APP_OPENAI_API_KEY)
-    console.log("Key "+process.env.OPENAI_API_KEY)
+    console.log("Key "+process.env.REACT_APP_OPENAI_API_KEY)
     const refreshChat = () => {
         setChat((prev)=>[])
         setThread((prev)=>null)
