@@ -2,7 +2,7 @@
 import { createContext,useState } from "react"
 
 const keyDefault = {
-    key: '',
+    key: process.env.OPENAI_API_KEY,
     setKey: () => {}
 }
 export const KeyContext = createContext(keyDefault);
