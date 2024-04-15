@@ -1,4 +1,4 @@
-MAGAimport { Montserrat } from 'next/font/google'
+import { Montserrat } from 'next/font/google'
 import './globals.css'
 import MainComponent from "@/components/MainComponent"
 
