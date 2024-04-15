@@ -17,7 +17,7 @@ export async function GET(request) {
         }else{
             getAssistant = objectData.assistants[assistantId]
         }
-        resData = {openAIKey:objectData.openAIKey,assistant:getAssistant}
+        resData = {openAIKey:process.env.OPENAI_API_KEY,assistant:getAssistant}
     }else{
         resData = objectData
     }
