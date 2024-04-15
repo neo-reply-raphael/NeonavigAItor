@@ -21,7 +21,6 @@ function Embed({ params: { assistantId } }) {
     chatRef.current = chat
     const apiKeyFromEnv = process.env.NEXT_PUBLIC_OPENAI_API_KEY
     localStorage.setItem('openAIKey',apiKeyFromEnv)
-    console.log("Key "+apiKeyFromEnv)
     const refreshChat = () => {
         setChat((prev)=>[])
         setThread((prev)=>null)
