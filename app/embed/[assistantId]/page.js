@@ -89,7 +89,7 @@ function Embed({ params: { assistantId } }) {
         <div className="h-screen w-screen md:p-4 flex flex-col bg-myBg gap-4">
             <div className={`flex justify-between bg-myPrimary rounded-xl p-4`}>
                 <div className="flex items-center gap-2">
-                    <Image height={25} width={25} src='/assistant.svg' alt="logo"/>
+                    <Image height={25} width={58} src='/Neo.png' alt="logo"/>
                     <span className="font-semibold">NEO MAGAZINE FATAL</span>
                 </div>
                 <div className="d-flex align-items-center gap-2 cursor-pointer">
