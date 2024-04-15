@@ -1,1 +1,1 @@
-{"openAIKey":process.env.OPENAI_API_KEY,"assistants":{process.env.OPENAI_ASSISTANT_ID:{"id":process.env.OPENAI_ASSISTANT_ID,"name":"NeoTest"}}}
+{"openAIKey":"","assistants":{"asst_eYjZyCAqNYgEBiF2OX7fMEVN":{"id":"asst_eYjZyCAqNYgEBiF2OX7fMEVN","name":"NeoTest"}}}
